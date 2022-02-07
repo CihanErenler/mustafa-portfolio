@@ -1,0 +1,52 @@
+export const skills = [
+  { id: 1, desc: "VHDL", icon: "fas icon fa-wave-square html" },
+  { id: 2, desc: "R", icon: "far icon fa-registered css" },
+  { id: 4, desc: "C++", icon: "fab icon fa-cuttlefish react" },
+  { id: 3, desc: "Matlab", icon: "fab icon fa-maxcdn js" },
+  { id: 5, desc: "AI", icon: "fas icon fa-robot vue" },
+  { id: 6, desc: "Python", icon: "fab icon fa-python node" },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Sound-Clasification",
+    desc: "Soun Clasification: This project will explore how  to leverage neural networks to obtain information from sounds. An interesting challenge is to try to determine objects inside a box by generating and recording sounds",
+    img: "src/assets/img/projects/project-1.jpg",
+    github: "https://github.com/oztoprakmustafa/Sound-Clasification",
+    tags: ["React", "Tailwind Css", "React Router", "Axios", "React Icons"],
+  },
+  {
+    id: 2,
+    title: "Speech feature extraction methods",
+    desc: "Feature Extraction: Speech processing mostly performs two fundamental operations such as Feature Extraction and Classification. In this project, LPC, LPCC, MFCC, BFCC feature extraction techniques for recognition of male and female voices have been studied, and the corresponding recognition rates are compared.",
+    img: "src/assets/img/projects/project-2.jpeg",
+    github:
+      "https://github.com/oztoprakmustafa/SPEECH-FEATURE-EXTRACTION-METHODS",
+    tags: ["React", "CSS", "React Router", "Material UI"],
+  },
+  {
+    id: 3,
+    title: "Optical Character Recognition",
+    desc: "OCR: Optical Character Recognition(OCR) is the mechanical or electrical conversion of images of typewritten or printed text into machine-encoded text.  In this project, our aim is to digitize printed texts so that they can be electronically edited, searched, stored more compactly, displayed online, and used in machine.",
+    img: "src/assets/img/projects/project-3.jpeg",
+    github: "https://github.com/oztoprakmustafa/OCR",
+    tags: ["React", "CSS", "React Color", "React Icons"],
+  },
+  {
+    id: 4,
+    title: "Active-Noise-Cancellation",
+    desc: "ANC:Active Noise Cancellation (ANC) is a method for reducing undesired noise.The project  aim is to demonstrate various  ANC algorithms an their applications using matlab",
+    img: "src/assets/img/projects/project-4.jpeg",
+    github: "https://github.com/oztoprakmustafa/Active-Noise-Cancellation",
+    tags: ["React", "React Icons", "CSS"],
+  },
+  {
+    id: 5,
+    title: "UART-with-VHDL",
+    desc: "VHDL: Designing of UART Communication Protocol Using VHDL Throughout my internship period, I have taken many tasks individually. One of them is understanding of basic concepts of Uart communication protocol and testing it using FPGA. This project consists of two parts; One part is sending data from computer to FPGA to blink led. The other part is sending data from FPGA to computer to see in the serial monitor",
+    img: "src/assets/img/projects/project-5.jpeg",
+    github: "https://github.com/oztoprakmustafa/UART-with-VHDL",
+    tags: ["Javascript", "CSS"],
+  },
+];
